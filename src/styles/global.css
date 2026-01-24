@@ -3,21 +3,33 @@
 
 @font-face {
 	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-regular.woff') format('woof');
+	src: url('/fonts/atkinson-regular.woff') format('woff');
 	font-weight: 400;
-	font-size: normal;
+	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-bold.woff') format('woof');
+	src: url('/fonts/atkinson-bold.woff') format('woff');
 	font-weight: 700;
-	font-size: normal;
+	font-style: normal;
 	font-display: swap;
 }
 
-@layer base {
-	body {
-		@apply bg-slate-950 text-gray-300 font-sans antialiased;
-	}
+body {
+	font-family: 'Atkinson', sans-serif, monospace;
 }
+
+/* 
+Rojo Sangre (Acento): (Para bordes, botones o enlaces al pasar el mouse).
+	red-950
+
+Negro/Carbón (Fondos sólidos)
+	neutral-950
+
+Gris Hueso (Texto principal)
+	neutral-200
+
+Gris Ceniza (Texto secundario/metadatos)
+	neutral-400
+ */
