@@ -2,15 +2,72 @@
 const today = new Date();
 ---
 
-<footer class="bg-neutral-950/80 backdrop-blur-md border-t border-red-950/30 py-12 px-4 text-center mt-auto">
-	<div class="max-w-7xl mx-auto space-y-4">
-		<p class="text-neutral-200 text-sm">
-			&copy; {today.getFullYear()} Hollow Sense. All rights reserved.
-		</p>
+<footer class="w-full py-8 px-6 md:px-12 bg-neutral-950/80 backdrop-blur-md border-t border-red-950/30 mt-auto">
+	<div class="max-w-7xl mx-auto">
+		<div class="flex flex-col md:flex-row justify-between gap-8 mb-6">
+			<div></div>
 
-		<div class="flex justify-center gap-6">
-			<a href="https://x.com/HollowSense" class="text-neutral-400 hover:text-neutral-200 transition-colors">Twitter</a>
-			<a href="https://github.com/hollowsense" class="text-neutral-400 hover:text-neutral-200 transition-colors">GitHub</a>
+			<div class="grid grid-cols-2 gap-12">
+				<div>
+					<h4 class="text-neutral-200 font-bold mb-4 text-sm uppercase tracking-widest">Hollow Sense</h4>
+					<ul class="space-y-2 text-neutral-400 text-sm">
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://hollowsense.com/index.html">
+								<i class="fa-solid fa-globe"></i> Web Page
+							</a>
+						</li>
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://github.com/hollowsense">
+								<i class="fa-brands fa-github"></i> GitHub
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<h4 class="text-neutral-200 font-bold mb-4 text-sm uppercase tracking-widest">Social</h4>
+					<ul class="space-y-2 text-neutral-400 text-sm">
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://www.facebook.com/HollowSenseOfficial">
+								<i class="fa-brands fa-facebook"></i> Facebook
+							</a>
+						</li>
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://www.instagram.com/hollowsense.official/">
+								<i class="fa-brands fa-instagram"></i> Instagram
+							</a>
+						</li>
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://x.com/HollowSense">
+								<i class="fa-brands fa-x-twitter"></i> X.com
+							</a>
+						</li>
+
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://www.tiktok.com/@hollowsense">
+								<i class="fa-brands fa-tiktok"></i> TikTok
+							</a>
+						</li>
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://www.youtube.com/@HollowSenseOfficial">
+								<i class="fa-brands fa-youtube"></i> YouTube
+							</a>
+						</li>
+						<li class="hover:text-neutral-200 transition-colors">
+							<a href="https://www.reddit.com/r/HollowSense/">
+								<i class="fa-brands fa-reddit"></i> Reddit
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="pt-8 border-t border-red-950/30 text-sm text-center text-neutral-200">
+			<p>
+				&copy; {today.getFullYear()} Hollow Sense. All rights reserved.
+			</p>
 		</div>
 	</div>
 </footer>
