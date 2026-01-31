@@ -12,7 +12,7 @@ import MainLayout from '../layouts/MainLayout.astro';
 	</head>
 
 	<MainLayout>
-		<main class="flex flex-col items-center justify-center min-h-[80vh] px-4 text-center">
+		<main class="flex flex-col items-center justify-center min-h-[75vh] px-4 text-center">
 			
 			<h1 class="text-5xl md:text-7xl font-bold text-neutral-200 mb-6 tracking-tighter">
 				{SITE_TITLE}
@@ -22,21 +22,29 @@ import MainLayout from '../layouts/MainLayout.astro';
 				This is the official devlog from Hollow Sense
 			</p>
 
-			<!-- <div class="flex gap-4">
+			<div class="flex gap-4">
 				<a
 					href="/blog"
-					class="bg-white text-slate-950 px-6 py-3 rounded-lg font-bold hover:bg-gray-200 transition duration-300"
+					class="bg-neutral-200 text-neutral-950 px-6 py-3 rounded-lg font-bold hover:bg-neutral-400 transition-colors duration-300"
 				>
 					Read the Blog
 				</a>
 				<a
-					href="https://github.com/hollowsense"
+					href="https://hollowsense.com/index.html"
 					target="_blank"
-					class="border border-gray-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-gray-900 transition duration-300"
+					class="bg-red-950/30 text-neutral-200 px-6 py-3 rounded-lg font-bold hover:bg-red-950 transition-colors duration-300"
 				>
-					GitHub
+					Official Web Page
 				</a>
-			</div> -->
+			</div>
+
+			<!-- hidden lg:flex mt-64 -->
+			<div class="mt-64">
+				<h2 class="text-5xl text-neutral-400 font-bold tracking-tighter">
+					Upcoming Video Game
+				</h2>
+				<iframe src="https://store.steampowered.com/widget/3968040/" width="646" height="190" class="mt-8"></iframe>
+			</div>
 		</main>
 	</MainLayout>
 </html>
