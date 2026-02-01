@@ -20,7 +20,7 @@ const posts = (await getCollection('blog')).sort(
 
 	<MainLayout>
 		<main class="w-full max-w-7xl mx-auto px-4 py-12 grow">
-			<h1 class="text-4xl font-bold text-neutral-200 mb-12 border-l-14 border-red-950 pl-4">
+			<h1 class="font-bebas-neue text-4xl font-bold text-neutral-200 mb-12 border-l-14 border-red-950 pl-4">
 				Development Log
 			</h1>
 
@@ -45,14 +45,14 @@ const posts = (await getCollection('blog')).sort(
 										)}
 									</div>
 
-									<div class="p-6 flex flex-col grow font-atkinson">
+									<div class="p-6 flex flex-col grow">
 										<p class="text-sm text-neutral-400 mb-2 font-mono">
 											<FormattedDate date={post.data.pubDate} />
 										</p>
-										<h4 class="text-xl font-bold text-neutral-200 mb-2 group-hover:text-red-950 transition-colors">
+										<h4 class="font-bebas-neue text-xl font-bold tracking-wider text-neutral-200 mb-2 group-hover:text-red-950 transition-colors">
 											{post.data.title}
 										</h4>
-										<p class="text-neutral-400 text-sm line-clamp-3">
+										<p class="font-atkinson text-neutral-400 text-sm line-clamp-3">
 											{post.data.description}
 										</p>
 									</div>
