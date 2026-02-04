@@ -3,7 +3,7 @@ title: 'From Steam Demo to Next Fest: Our Journey Continues!'
 description: 'Exciting updates since our Steam demo release and thrilled to announce our participation in Steam Next Fest with live streams, content creator collaborations, and special showcases!'
 pubDate: 'February 5 2026'
 updatedDate: 'February 5 2026'
-heroImage: '../../../public/imgages/stea_next_fest_lockdown.png'
+heroImage: '/images/stea_next_fest_lockdown.png'
 author: 'Hollow Sense Team'
 tags: ['steam next fest', 'updates', 'development', 'hollow stories lockdown']
 ---
