@@ -3,7 +3,7 @@ title: 'From Steam Demo to Next Fest: Our Journey Continues!'
 description: 'Exciting updates since our Steam demo release and thrilled to announce our participation in Steam Next Fest with live streams, content creator collaborations, and special showcases!'
 pubDate: 'February 5 2026'
 updatedDate: 'February 5 2026'
-heroImage: '/images/steam_next_fest_lockdown.png'
+heroImage: '../../../public/images/steam_next_fest_lockdown.png'
 author: 'Hollow Sense Team'
 tags: ['steam next fest', 'updates', 'development', 'hollow stories lockdown']
 ---
@@ -130,8 +130,7 @@ Implemented a new lever animation and interaction system. Added broken wall asse
 
 If you haven't played the demo yet, now is the perfect time to jump in and experience the neo-retro horror of Hollow Stories: Lockdown!
 
-[![Steam](https://img.shields.io/badge/Steam-Add%20to%20Wishlist-e53d22?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/3968040/Hollow_Stories_Lockdown/)
-[![itch.io](https://img.shields.io/badge/itch.io-Try%20Demo-FF0066?style=for-the-badge&logo=itch.io)](https://hollowsense.itch.io/hollowstorieslockdown)
+[![Steam](https://img.shields.io/badge/Steam-Try%20the%20Demo%20On%20Steam-e53d22?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/3968040/Hollow_Stories_Lockdown/)
 
 ---
 
@@ -139,16 +138,13 @@ If you haven't played the demo yet, now is the perfect time to jump in and exper
 
 We're building Hollow Stories: Lockdown with passion and dedication. Your support means everything to us as we continue to grow and improve the game.
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin: 30px 0;">
-  <a href="https://discord.gg/hollowsense" target="_blank" style="background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%); color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px;">
-    <span>💬 Join Our Discord</span>
-  </a>
-  <a href="https://twitter.com/HollowSense" target="_blank" style="background: linear-gradient(135deg, #1DA1F2 0%, #0D86C4 100%); color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px;">
-    <span>🐦 Follow Us on Twitter</span>
-  </a>
-  <a href="https://www.instagram.com/hollowsense.official/" target="_blank" style="background: linear-gradient(135deg, #E1306C 0%, #C13584 100%); color: white; padding: 12px 30px; border-radius: 50px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px;">
-    <span>📸 Instagram</span>
-  </a>
+<div style="display: flex; justify-content: center; gap: 20px; margin: 30px 0; flex-wrap: wrap;">
+  <a href="https://discord.gg/hollowsense" target="_blank"><img src="https://img.shields.io/badge/Discord-Join%20Our%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://x.com/HollowSense" target="_blank"><img src="https://img.shields.io/badge/X-Follow%20Us-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://www.instagram.com/hollowsense.official/" target="_blank"><img src="https://img.shields.io/badge/Instagram-Follow%20Us-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.tiktok.com/@hollowsense" target="_blank"><img src="https://img.shields.io/badge/TikTok-Follow%20Us-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+  <a href="https://www.reddit.com/r/HollowSense/" target="_blank"><img src="https://img.shields.io/badge/Reddit-Join%20r/HollowSense-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a>
+  <a href="https://www.youtube.com/@HollowSenseOfficial" target="_blank"><img src="https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 </div>
 
 ---
@@ -161,5 +157,5 @@ Stay tuned for more updates, and we'll see you at **Steam Next Fest**! 🎮
 
 ---
 
-**Hollow Sense**  
-*Crafting horror from the heart of Mexico* 🇲🇽
+**Hollow Sense Team**  
+*Crafting horror from the heart* 
